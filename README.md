@@ -42,7 +42,16 @@ npm install
 
 ### 3. Setup environment variables
 
-- Copy `.env.example` to `.env` in both folders and update database credentials as needed.
+Copy  `.env` in **both** folders and set your variables.
+
+**PostgreSQL (recommended)**
+```env
+# Prisma expects a standard Postgres connection string
+# Format:
+# postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>?schema=<SCHEMA>
+
+DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>?schema=<SCHEMA>"
+
 
 ### 4. Setup Prisma (Backend)
 
