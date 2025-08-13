@@ -1,4 +1,4 @@
-# Taska
+# Task Management
 
 A modern task management app built with React, Vite, Tailwind CSS, and Prisma. This monorepo contains both the frontend (`next-task-vision`) and backend (`next-task-vision-server`).
 
