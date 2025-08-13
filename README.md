@@ -42,7 +42,7 @@ npm install
 
 ### 3. Setup environment variables
 
-Copy  `.env` in **both** folders and set your variables.
+Copy  `.env` in server folder and set your variables.
 
 **PostgreSQL (recommended)**
 ```env
